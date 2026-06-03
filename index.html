@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FitDiary — Privacy Policy</title>
+<style>
+  :root{
+    --bg:#F4EEE3; --surface:#FFFDF8; --ink:#2C2722; --sub:#8C8071;
+    --line:#E8DFD0; --clay:#BC5A3C; --clayDark:#9C4830; --clayL:#F4E3D9; --sage:#74886B;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:'Hanken Grotesk',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+    line-height:1.6; -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:760px; margin:0 auto; padding:0 22px 80px;}
+  header{
+    background:linear-gradient(135deg,var(--clay),var(--clayDark));
+    color:#fff; padding:54px 22px 46px; text-align:center;
+  }
+  .logo{width:84px;height:84px;margin:0 auto 16px;display:block;}
+  header h1{font-family:Georgia,'Times New Roman',serif; font-size:38px; margin:0 0 6px; font-weight:700;}
+  header p{margin:0; opacity:.92; font-size:17px;}
+  .switch{display:flex; gap:8px; justify-content:center; margin:26px 0 4px;}
+  .switch button{
+    border:1px solid var(--line); background:var(--surface); color:var(--sub);
+    padding:9px 22px; border-radius:99px; font-size:14px; font-weight:700; cursor:pointer;
+    font-family:inherit; transition:all .15s;
+  }
+  .switch button.active{background:var(--clay); color:#fff; border-color:var(--clay);}
+  .card{
+    background:var(--surface); border:1px solid var(--line); border-radius:22px;
+    padding:30px 30px 34px; margin-top:22px; box-shadow:0 10px 30px -22px rgba(60,40,20,.4);
+  }
+  .summary{
+    background:var(--clayL); border-radius:16px; padding:18px 20px; margin-bottom:26px;
+    font-size:16px;
+  }
+  h2{font-family:Georgia,serif; color:var(--clay); font-size:23px; margin:30px 0 10px;}
+  h2:first-of-type{margin-top:6px;}
+  ul{padding-left:22px; margin:8px 0;}
+  li{margin:4px 0;}
+  table{width:100%; border-collapse:collapse; margin:12px 0;}
+  th,td{text-align:left; padding:10px 12px; border:1px solid var(--line); font-size:15px;}
+  th{background:var(--clayL); font-weight:700;}
+  code{background:var(--bg); padding:2px 7px; border-radius:6px; font-size:14px;}
+  .meta{font-size:14px; color:var(--sub); margin-top:4px;}
+  .meta b{color:var(--ink);}
+  .footer-note{text-align:center; color:var(--sub); font-size:14px; margin-top:30px; font-style:italic;}
+  .lang{display:none;}
+  .lang.active{display:block;}
+  a{color:var(--clay);}
+</style>
+</head>
+<body>
+
+<header>
+  <svg class="logo" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+    <path fill="#FFFDF8" d="M40,62 C40,62 26,53 22,43 C19.5,36.5 22.5,30 29,30 C33,30 36.5,32.5 38,36 C38.6,37.3 41.4,37.3 42,36 C43.5,32.5 47,30 51,30 C57.5,30 60.5,36.5 58,43 C54,53 40,62 40,62 Z"/>
+    <path d="M25,46 L32,46 L35.5,38 L39.5,52 L43,46 L59,46" stroke="#BC5A3C" stroke-width="3.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+  <h1>FitDiary</h1>
+  <p data-it="Informativa sulla Privacy" data-en="Privacy Policy">Informativa sulla Privacy</p>
+</header>
+
+<div class="wrap">
+
+  <div class="switch">
+    <button id="btn-it" class="active" onclick="setLang('it')">🇮🇹 Italiano</button>
+    <button id="btn-en" onclick="setLang('en')">🇬🇧 English</button>
+  </div>
+
+  <!-- ============ ITALIANO ============ -->
+  <div class="lang active" id="it">
+    <div class="card">
+      <p class="meta"><b>App:</b> FitDiary: Dieta &amp; Allenamento</p>
+      <p class="meta"><b>Sviluppatore:</b> Sebastiano</p>
+      <p class="meta"><b>Contatto:</b> Ds2dcompany@gmail.com</p>
+      <p class="meta"><b>Ultimo aggiornamento:</b> 3 giugno 2026</p>
+
+      <div class="summary" style="margin-top:22px;">
+        FitDiary è progettata per rispettare totalmente la tua privacy.
+        <b>L'app funziona completamente offline, non raccoglie dati personali,
+        non li trasmette ad alcun server e non li condivide con terze parti.</b>
+        Tutto ciò che inserisci resta esclusivamente sul tuo dispositivo.
+      </div>
+
+      <h2>1. Dati che NON raccogliamo</h2>
+      <p>FitDiary <b>non raccoglie, non invia e non condivide</b> alcun dato personale o identificativo. In particolare non raccogliamo:</p>
+      <ul>
+        <li>dati anagrafici o di contatto (nome, email, telefono);</li>
+        <li>identificatori del dispositivo o pubblicitari;</li>
+        <li>dati di posizione;</li>
+        <li>dati analitici, statistiche d'uso o crash report;</li>
+        <li>dati biometrici.</li>
+      </ul>
+      <p>L'app non utilizza account, non richiede registrazione online e non effettua alcun login.</p>
+
+      <h2>2. Dati che inserisci tu (salvati solo in locale)</h2>
+      <p>Le informazioni che digiti nell'app — profilo (nome, sesso, età, altezza, peso, obiettivi), pasti e calorie, allenamenti, menù, foto dei progressi, dati sul ciclo mestruale, idratazione e impostazioni — vengono salvate <b>unicamente nella memoria interna del tuo dispositivo</b>. Questi dati non lasciano mai il dispositivo, non sono accessibili allo sviluppatore né a terzi, e non vengono inviati su internet.</p>
+
+      <h2>3. Fotocamera e immagini</h2>
+      <p>L'app può aprire la fotocamera o la galleria di sistema per aggiungere foto dei progressi. Le immagini selezionate vengono salvate solo in locale e <b>non vengono caricate da nessuna parte</b>. L'app non accede alla galleria in background.</p>
+
+      <h2>4. Notifiche</h2>
+      <p>FitDiary può mostrare promemoria locali (ad esempio "ricordati di bere"). Sono generati interamente sul dispositivo e non comportano trasmissione di dati. Su Android 13+ ti viene chiesto il permesso per le notifiche; puoi negarlo o revocarlo in qualsiasi momento.</p>
+
+      <h2>5. Permessi richiesti</h2>
+      <table>
+        <tr><th>Permesso</th><th>Finalità</th></tr>
+        <tr><td>Notifiche (<code>POST_NOTIFICATIONS</code>)</td><td>Mostrare il promemoria di idratazione.</td></tr>
+        <tr><td>Vibrazione (<code>VIBRATE</code>)</td><td>Vibrazione opzionale della notifica.</td></tr>
+        <tr><td>Fotocamera (di sistema)</td><td>Scattare le foto dei progressi, su tua richiesta.</td></tr>
+      </table>
+      <p>L'app <b>non</b> richiede il permesso di accesso a Internet.</p>
+
+      <h2>6. Servizi di terze parti</h2>
+      <p>FitDiary <b>non integra</b> SDK di analisi, pubblicità, social network o altri servizi di terze parti che raccolgano dati.</p>
+
+      <h2>7. Dati dei minori</h2>
+      <p>L'app non è specificamente indirizzata ai minori e, in ogni caso, non raccoglie dati da alcun utente.</p>
+
+      <h2>8. Conservazione e cancellazione dei dati</h2>
+      <p>Poiché i dati risiedono solo sul tuo dispositivo, ne mantieni il pieno controllo. Puoi eliminarli in qualsiasi momento cancellando i dati dell'app dalle impostazioni di Android (Impostazioni → App → FitDiary → Spazio di archiviazione → Cancella dati) oppure disinstallando l'app.</p>
+
+      <h2>9. Sicurezza</h2>
+      <p>I dati restano confinati nello spazio di archiviazione privato dell'app, protetto dal sistema operativo Android. Non essendoci trasmissione di rete, non vi è rischio di intercettazione dei dati in transito.</p>
+
+      <h2>10. Modifiche a questa informativa</h2>
+      <p>Eventuali aggiornamenti saranno pubblicati su questa stessa pagina, con la data di ultimo aggiornamento revisionata in cima.</p>
+
+      <h2>11. Contatti</h2>
+      <p>Per qualsiasi domanda su questa informativa: <b>Ds2dcompany@gmail.com</b></p>
+
+      <p class="footer-note">FitDiary non raccoglie dati. La tua salute resta una cosa tua.</p>
+    </div>
+  </div>
+
+  <!-- ============ ENGLISH ============ -->
+  <div class="lang" id="en">
+    <div class="card">
+      <p class="meta"><b>App:</b> FitDiary: Dieta &amp; Allenamento</p>
+      <p class="meta"><b>Developer:</b> Sebastiano</p>
+      <p class="meta"><b>Contact:</b> Ds2dcompany@gmail.com</p>
+      <p class="meta"><b>Last updated:</b> June 3, 2026</p>
+
+      <div class="summary" style="margin-top:22px;">
+        FitDiary is built to fully respect your privacy.
+        <b>The app works completely offline, collects no personal data,
+        sends nothing to any server, and shares nothing with third parties.</b>
+        Everything you enter stays solely on your device.
+      </div>
+
+      <h2>1. Data we do NOT collect</h2>
+      <p>FitDiary <b>does not collect, transmit, or share</b> any personal or identifying data. Specifically, we do not collect:</p>
+      <ul>
+        <li>personal or contact details (name, email, phone);</li>
+        <li>device or advertising identifiers;</li>
+        <li>location data;</li>
+        <li>analytics, usage statistics, or crash reports;</li>
+        <li>biometric data.</li>
+      </ul>
+      <p>The app uses no accounts, requires no online sign-up, and performs no login.</p>
+
+      <h2>2. Data you enter (stored locally only)</h2>
+      <p>The information you type into the app — profile (name, sex, age, height, weight, goals), meals and calories, workouts, menus, progress photos, menstrual-cycle data, hydration, and settings — is stored <b>only in your device's internal storage</b>. This data never leaves your device, is not accessible to the developer or any third party, and is never sent over the internet.</p>
+
+      <h2>3. Camera and images</h2>
+      <p>The app may open the system camera or gallery so you can add progress photos. Selected images are stored locally only and are <b>never uploaded anywhere</b>. The app does not access your gallery in the background.</p>
+
+      <h2>4. Notifications</h2>
+      <p>FitDiary may show local reminders (such as "time to drink water"). These are generated entirely on the device and involve no data transmission. On Android 13+ you are asked for notification permission; you may deny or revoke it at any time.</p>
+
+      <h2>5. Permissions requested</h2>
+      <table>
+        <tr><th>Permission</th><th>Purpose</th></tr>
+        <tr><td>Notifications (<code>POST_NOTIFICATIONS</code>)</td><td>Show the hydration reminder.</td></tr>
+        <tr><td>Vibrate (<code>VIBRATE</code>)</td><td>Optional vibration for the notification.</td></tr>
+        <tr><td>Camera (system)</td><td>Take progress photos, at your request.</td></tr>
+      </table>
+      <p>The app does <b>not</b> request the Internet permission.</p>
+
+      <h2>6. Third-party services</h2>
+      <p>FitDiary <b>does not embed</b> any analytics, advertising, social-network, or other third-party SDKs that collect data.</p>
+
+      <h2>7. Children's data</h2>
+      <p>The app is not specifically directed at children and, in any case, collects no data from any user.</p>
+
+      <h2>8. Data retention and deletion</h2>
+      <p>Because your data lives only on your device, you remain in full control. You can delete it at any time by clearing the app data in Android settings (Settings → Apps → FitDiary → Storage → Clear data) or by uninstalling the app.</p>
+
+      <h2>9. Security</h2>
+      <p>Data stays confined to the app's private storage area, protected by the Android operating system. Because there is no network transmission, there is no risk of data being intercepted in transit.</p>
+
+      <h2>10. Changes to this policy</h2>
+      <p>Any updates will be posted on this same page, with the "Last updated" date at the top revised accordingly.</p>
+
+      <h2>11. Contact</h2>
+      <p>For any questions about this policy: <b>Ds2dcompany@gmail.com</b></p>
+
+      <p class="footer-note">FitDiary collects no data. Your health stays yours.</p>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  function setLang(l){
+    document.getElementById('it').classList.toggle('active', l==='it');
+    document.getElementById('en').classList.toggle('active', l==='en');
+    document.getElementById('btn-it').classList.toggle('active', l==='it');
+    document.getElementById('btn-en').classList.toggle('active', l==='en');
+    document.documentElement.lang = l;
+    document.querySelectorAll('[data-it]').forEach(function(el){
+      el.textContent = l==='it' ? el.getAttribute('data-it') : el.getAttribute('data-en');
+    });
+  }
+</script>
+</body>
+</html>
